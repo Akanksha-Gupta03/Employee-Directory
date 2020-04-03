@@ -6,13 +6,13 @@ function Header (){
         color: "#ffffff",
         width: "100%",
         textAlign: "center",
-        backgroundColor: "#111D45",
+        backgroundColor: "#111E45",
         marginBottom: "10px",
         borderBottom: "5px solid red"
     }
     return(
         <div className="header" style={headerStyle}>
-            <h1>Employee Directory</h1>
+            <h1><span><i class="fa fa-address-book-o" aria-hidden="true"></i></span>  Employee Directory</h1>
         </div>
     )
 }

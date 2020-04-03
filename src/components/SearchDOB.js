@@ -1,5 +1,4 @@
-import React from "react";
-
+import React, {useContext} from "react";
 import DeveloperContext from "../utils/DeveloperContext";
 
 const SearchDOB = () =>{
@@ -11,10 +10,10 @@ const SearchDOB = () =>{
                 <div className="input-group-prepend">
                     <span class="input-group-text" id="">DOB</span>
                 </div>
-                <input type="date" className="form-control" />
-                <input type="date" className="form-control" />
+                <input type="date" className="form-control" onChange={e => context.handleSearchChange(e)} />
+                <input type="date" className="form-control" onChange={e => context.handleSearchChange(e)} />
                 </div>
-
         </div>
     )
 }
+export default SearchDOB;

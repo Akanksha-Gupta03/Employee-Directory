@@ -1,12 +1,11 @@
 import React from "react";
-import SearchName from "./SearchName";
-import SearchDOB from "./SearchDOB";
+import SearchName from "./SearchName.js";
+import SearchDOB from "./SearchDOB.js";
 import "../styles/NavBar.css";
 
-
-function NavBar(){
-    return(
-     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+function NavBar() {
+  return (
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <button
         className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
@@ -16,8 +15,8 @@ function NavBar(){
           <SearchName />
         </div>
       </div>
-     </nav>
-  )
+    </nav>
+  );
 } 
 
 export default NavBar;
