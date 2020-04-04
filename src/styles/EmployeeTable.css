@@ -10,6 +10,6 @@
   
   .datatable .col .pointer:after {
     font-size: 80%;
-    content: "🔻";
+    content: "\25BC";
     margin-right: 0;
   }
