@@ -12,6 +12,8 @@ The user should be able to:
 
 ## Technogies Used
 ```
+HTML
+CSS
 Bootstrap
 React
 ```
